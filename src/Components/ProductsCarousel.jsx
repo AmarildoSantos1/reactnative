@@ -63,7 +63,7 @@ const ProductsCarousel = ({ data }) => {
                 }}
               >
                 <Text style={{ fontSize: 20, fontWeight: "bold" }}>
-                  ₹ {item.price}
+                  R$ {item.price}
                 </Text>
                 {storeData.some((value) => value.name == item.name) ? (
                   <FontAwesome

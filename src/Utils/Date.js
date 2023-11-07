@@ -1,69 +1,69 @@
 export const fruits = [
   {
-    name: "Maça",
-    pieces: "7unid",
-    price: 4.99,
-    img: "https://w7.pngwing.com/pngs/265/75/png-transparent-ipod-touch-apple-icon-format-icon-large-red-apples-closeup-of-red-apples-natural-foods-food-eating.png",
+    name: "Maçã",
+    pieces: "10 unid",
+    price: 5.55,
+    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsupertem.com.br%2Floja%2Fmaca-vermelha-import-kg%2F&psig=AOvVaw2KuCHsL_swRfB1EuQ2QQK9&ust=1699485652129000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCx98aDs4IDFQAAAAAdAAAAABAE",
   },
   {
     name: "banana",
-    pieces: "7unid",
-    price: 4.99,
-    img: "https://e7.pngegg.com/pngimages/955/492/png-clipart-banana-powder-fruit-cavendish-banana-banana-yellow-banana-fruit-food-image-file-formats.png",
+    pieces: "7 unid",
+    price: 9.99,
+    img: "https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png",
   },
   {
     name: "laranja",
-    pieces: "7unid",
+    pieces: "7 unid",
     price: 4.99,
-    img: "https://w7.pngwing.com/pngs/1001/506/png-transparent-slices-of-oranges-orange-juice-flavor-fruit-nutritious-orange-natural-foods-food-orange.png",
+    img: "https://img.freepik.com/psd-premium/fruta-laranja-em-fundo-transparente-png-clipart_88754-495.jpg",
   },
   {
     name: "abacaxi",
-    pieces: "7unid",
-    price: 4.99,
-    img: "https://static.vecteezy.com/system/resources/previews/008/848/362/non_2x/fresh-pineapple-free-png.png",
+    pieces: "7 unid",
+    price: 2.99,
+    img: "https://img.freepik.com/fotos-premium/abacaxi-suculento-em-um-fundo-branco-isolado_96064-298.jpg?w=2000",
   },
 ];
 
 export const vegetables = [
   {
     name: "tomate",
-    pieces: "7unid",
-    price: 4.99,
-    img: "https://w7.pngwing.com/pngs/891/45/png-transparent-tomato-tomato-fresh-fruits-thumbnail.png",
+    pieces: "7 unid",
+    price: 3.99,
+    img: "https://img.freepik.com/fotos-premium/tomate-isolado-em-um-fundo-branco_132358-20163.jpg",
   },
   {
     name: "Pimenta",
-    pieces: "7unid",
-    price: 4.99,
-    img: "https://w7.pngwing.com/pngs/199/527/png-transparent-mirchi-ka-salan-chili-pepper-leaf-vegetable-serrano-pepper-hot-peppers-natural-foods-leaf-vegetable-food-thumbnail.png",
+    pieces: "7 unid",
+    price: 6.99,
+    img: "https://i.pinimg.com/originals/a3/60/32/a36032c6a2e8a2ae1d1acdc60d7298a5.png",
   },
   {
     name: "alface",
-    pieces: "7unid",
+    pieces: "2 unid",
     price: 4.99,
-    img: "https://w7.pngwing.com/pngs/548/1000/png-transparent-green-cabbage-cauliflower-red-cabbage-white-cabbage-vegetable-savoy-cabbage-cabbage-leaf-vegetable-food-leaf-thumbnail.png",
+    img: "https://img.freepik.com/psd-premium/folha-de-alface-verde-isolada-em-um-fundo-transparente_812337-1021.jpg",
   },
   {
     name: "cebola",
-    pieces: "7unid",
+    pieces: "3 unid",
     price: 4.99,
-    img: "https://w7.pngwing.com/pngs/788/438/png-transparent-rd-onions-red-onion-shallot-vegetable-organic-food-white-onion-onion-food-nutrition-wholesale-thumbnail.png",
+    img: "https://www.designi.com.br/images/preview/10146588.jpg",
   },
 ];
 
 export const Dropdown = [
   {
-    title: "Product-Details",
+    title: "Produtos-Detalhes",
     content:
-      "apple, (Malus domestica), domesticated tree and fruit of the rose family (Rosaceae), one of the most widely cultivated tree fruits. Apples are predominantly grown for sale as fresh fruit, though apples are also used commercially for vinegar, juice, jelly, applesauce, and apple butter and are canned as pie stock.",
+      "Maçã, (Malus domestica), árvore e fruto domesticado da família das rosáceas (Rosaceae), um dos frutos de árvore mais amplamente cultivados. As maçãs são predominantemente cultivadas para venda como frutas frescas, embora também sejam usadas comercialmente para fazer vinagre, suco, geléia, purê de maçã e manteiga de maçã, além de serem enlatadas para fazer recheio de tortas.",
   },
   {
-    title: "Nutritions",
-    content: "Vitamin12",
+    title: "Nutrições",
+    content: "Vitamina b12",
   },
   {
     title: "Reviews",
-    content: "4-reviews found in this product review",
+    content: "4-reviews encontradas",
   },
 ];
