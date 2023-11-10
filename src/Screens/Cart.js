@@ -36,7 +36,7 @@ const Cart = () => {
       }}
     >
       <Text style={{ textAlign: "center", fontSize: 24, fontWeight: "500" }}>
-        My Cart
+        Meu carrinho
       </Text>
 
       <View
@@ -148,7 +148,7 @@ const Cart = () => {
                   {/* ///Quantity Container// */}
 
                   <Text style={{ fontSize: 22, fontWeight: "600" }}>
-                    ₹ {item.quantity * item.price}
+                    R$ {item.quantity * item.price}
                   </Text>
                 </View>
               </View>
@@ -181,10 +181,10 @@ const Cart = () => {
             }}
           >
             <Text style={{ color: "white", fontSize: 18, fontWeight: "700" }}>
-              Go to CheckOut
+              checkout
             </Text>
             <Text style={{ fontSize: 15, fontWeight: "500", color: "white" }}>
-              ₹ {amount}
+              R$ {amount}
             </Text>
           </View>
         </TouchableOpacity>

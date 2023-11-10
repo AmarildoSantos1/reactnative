@@ -12,7 +12,7 @@ const ProductsTitle = ({title}) => {
       }}
     >
       <Text style={{ fontSize: 20, fontWeight: "600" }}>{title}</Text>
-      <Text style={{fontSize:16,color:myColors.primary}} >See All</Text>
+      <Text style={{fontSize:16,color:myColors.primary}} >Ver mais</Text>
     </View>
   );
 };

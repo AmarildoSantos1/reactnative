@@ -81,7 +81,7 @@ const Details = ({ route }) => {
             fontWeight: "bold",
           }}
         >
-          ₹ {price}
+          R$ {price}
         </Text>
         <DropBox />
         <View
@@ -103,7 +103,7 @@ const Details = ({ route }) => {
               }}
             >
               <Text style={{ color: "black", fontSize: 18, fontWeight: "700" }}>
-                Added to Basket
+                Adicionado a cesta
               </Text>
             </TouchableOpacity>
           ) : (
@@ -122,7 +122,7 @@ const Details = ({ route }) => {
               }}
             >
               <Text style={{ color: "white", fontSize: 18, fontWeight: "700" }}>
-                Add to Basket
+                Adicionar a cesta
               </Text>
             </TouchableOpacity>
           )}

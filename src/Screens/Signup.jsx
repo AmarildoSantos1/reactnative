@@ -13,9 +13,6 @@ import { myColors } from "./../Utils/MyColors";
 import { StatusBar } from "expo-status-bar";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import { authentication, database } from "./../../Firebaseconfig";
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import { doc, setDoc } from "firebase/firestore";
 import uuid from 'react-native-uuid';
 
 const Signup = () => {
@@ -66,7 +63,7 @@ const uid=uuid.v4()
           <Text
             style={{ color: myColors.third, fontSize: 24, fontWeight: "500" }}
           >
-            Sign Up
+            Cadastre-se
           </Text>
           <Text
             style={{
@@ -76,7 +73,7 @@ const uid=uuid.v4()
               marginTop: 10,
             }}
           >
-            Enter your credentials to continue
+            Insira suas credenciais
           </Text>
           <Text
             style={{
@@ -86,7 +83,7 @@ const uid=uuid.v4()
               marginTop: 40,
             }}
           >
-            Username
+            Usuario
           </Text>
           <TextInput
             maxLength={9}
@@ -135,7 +132,7 @@ const uid=uuid.v4()
               marginTop: 40,
             }}
           >
-            Password
+            Senha
           </Text>
           <View
             style={{
@@ -184,7 +181,7 @@ const uid=uuid.v4()
               opacity: 0.7,
             }}
           >
-            By continuing you agree to our Terms of Service and Privacy Policy
+            Seja bem-vindo
           </Text>
           <TouchableOpacity
             onPress={userAccount}
@@ -204,7 +201,7 @@ const uid=uuid.v4()
                 fontWeight: "500",
               }}
             >
-              Sign Up
+              Cadastre-se
             </Text>
           </TouchableOpacity>
           <View
@@ -216,7 +213,7 @@ const uid=uuid.v4()
               gap: 5,
             }}
           >
-            <Text style={{ fontSize: 16 }}>Already have an account?</Text>
+            <Text style={{ fontSize: 16 }}>Já possui conta?</Text>
             <TouchableOpacity
               onPress={() => {
                 nav.navigate("Login");
@@ -229,7 +226,7 @@ const uid=uuid.v4()
                   fontWeight: "600",
                 }}
               >
-                Login Now
+                Login 
               </Text>
             </TouchableOpacity>
           </View>

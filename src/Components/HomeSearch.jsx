@@ -17,7 +17,7 @@ const HomeSearch = () => {
       }}
     >
       <Feather name="search" size={24} color="black" />
-      <TextInput style={{ flex: 1 }} placeholder="Pesquise aqui" />
+      <TextInput style={{ flex: 1 }} placeholder="Pesquisa" />
     </View>
   );
 };

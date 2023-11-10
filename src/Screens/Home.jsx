@@ -29,9 +29,9 @@ const Home = () => {
           <HomeIcon />
           <HomeSearch />
           <HomeBanner />
-          <ProductsTitle title="Exclusive Offer" />
+          <ProductsTitle title="Ofertas" />
           <ProductsCarousel data={fruits} />
-          <ProductsTitle title="Best Selling" />
+          <ProductsTitle title="Mais vendidos" />
           <ProductsCarousel data={vegetables} />
         </View>
       </ScrollView>

@@ -24,7 +24,7 @@ const Orderplaced = () => {
       <StatusBar backgroundColor="white" />
       <MaterialIcons name="verified" size={90} color={myColors.primary} />
       <Text style={{ fontSize: 20, textAlign: "center" }}>
-        Suas compras foram efetuadas!!
+        Compra efetuada!!
       </Text>
     </View>
   );

@@ -54,7 +54,7 @@ const Splash = () => {
               top: -15,
             }}
           >
-            online groceries
+            online hortifruti
           </Text>
         </View>
       </View>

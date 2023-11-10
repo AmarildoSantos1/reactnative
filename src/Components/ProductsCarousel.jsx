@@ -53,7 +53,7 @@ const ProductsCarousel = ({ data }) => {
               <Text style={{ fontSize: 18, fontWeight: "600" }}>
                 {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
               </Text>
-              <Text style={{ color: "grey" }}>{item.pieces} Priceg</Text>
+              <Text style={{ color: "grey" }}>{item.pieces} restantes</Text>
               <View
                 style={{
                   flexDirection: "row",

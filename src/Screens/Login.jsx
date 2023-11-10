@@ -12,8 +12,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { myColors } from "../Utils/MyColors";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { authentication } from "../../Firebaseconfig";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Login = () => {
@@ -51,7 +49,7 @@ const Login = () => {
           <Text
             style={{ color: myColors.third, fontSize: 24, fontWeight: "500" }}
           >
-            Loging
+            Login
           </Text>
           <Text
             style={{
@@ -61,7 +59,7 @@ const Login = () => {
               marginTop: 10,
             }}
           >
-            Enter your email and password
+            Insira seu email e senha
           </Text>
           <Text
             style={{
@@ -97,7 +95,7 @@ const Login = () => {
               marginTop: 40,
             }}
           >
-            Password
+            senha
           </Text>
           <View
             style={{
@@ -143,7 +141,7 @@ const Login = () => {
               textAlign: "right",
             }}
           >
-            Forgot Password?
+            Esqueceu a senha?
           </Text>
           <TouchableOpacity
             onPress={loginUser}
@@ -163,7 +161,7 @@ const Login = () => {
                 fontWeight: "500",
               }}
             >
-              Log In
+              Login
             </Text>
           </TouchableOpacity>
           <View
@@ -175,7 +173,7 @@ const Login = () => {
               gap: 5,
             }}
           >
-            <Text style={{ fontSize: 16 }}>Don't have an account?</Text>
+            <Text style={{ fontSize: 16 }}>Não tem conta?</Text>
             <TouchableOpacity
               onPress={() => {
                 nav.navigate("Signup");
@@ -188,7 +186,7 @@ const Login = () => {
                   fontWeight: "600",
                 }}
               >
-                Signup
+                Cadastre-se
               </Text>
             </TouchableOpacity>
           </View>
